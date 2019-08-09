@@ -1,71 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Trevor VanSaun</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <title>Trevor VanSaun</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--NAVBAR--->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Trevor VanSaun</a>
 
-  <!--NAVBAR--->
-  <div class="container-fluid">
-  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    		<a class="navbar-brand" href="index.html">Trevor VanSaun</a>
-    		
-    		<div class="collapse navbar-collapse" id="navbarNav">
-      		<ul class="navbar-nav ml-auto">
-        			<li class="nav-item">
-          			<a class="nav-link" href="about.html">About Me</a>
-        			</li>
-        			<li class="nav-item">
-          			<a class="nav-link" href="projects.html">Projects</a>
-        			</li>
-      		</ul>
-    		</div>
-    	</nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!--END NAVBAR-->
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4" id="infoCard">
-
-        <!--INFO CARD-->
-        <div class="card">
-          <img src="media/profile.jpeg" class="card-img-top rounded-circle" id="profileImg">
-          <div class="card-body">
-            <h5 class="card-title">Trevor VanSaun</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
-            <p><i class="fa fa-map-pin"></i>    Miami, Florida</p>
-            <p><i class="fa fa-envelope"></i><a href="mailto:trevorvansaun@gmail.com">    Email</a></p>
-            <p><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/trevor-vansaun-837334162/">    LinkedIn</a></p>
-            <p><i class="fa fa-github-square"></i><a href="https://github.com/tvansaun">    GitHub</a></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="infoCard">
+          <!--INFO CARD-->
+          <div class="card">
+            <img
+              src="media/profile.jpeg"
+              class="card-img-top rounded-circle"
+              id="profileImg"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Trevor VanSaun</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
+              <p><i class="fa fa-map-pin"></i> Miami, Florida</p>
+              <p>
+                <i class="fa fa-envelope"></i
+                ><a href="mailto:trevorvansaun@gmail.com"> Email</a>
+              </p>
+              <p>
+                <i class="fa fa-linkedin-square"></i
+                ><a
+                  href="https://www.linkedin.com/in/trevor-vansaun-837334162/"
+                >
+                  LinkedIn</a
+                >
+              </p>
+              <p>
+                <i class="fa fa-github-square"></i
+                ><a href="https://github.com/tvansaun"> GitHub</a>
+              </p>
+            </div>
           </div>
-        </div>   
+        </div>
+        <!--END INFO CARD-->
+
+        <div class="col-md-8">
+          <h1 class="text-center">Hello World!</h1>
+          <hr />
+          <h6 class="text-center">
+            Welcome to my portfolio website! Here you can learn more about me
+            and some of the projects I have worked on.
+          </h6>
+          <p class="text-center">
+            <a href="about.html"
+              ><button type="button" class="btn btn-link">About Me</button></a
+            >
+            |
+            <a href="projects.html"
+              ><button type="button" class="btn btn-link">Projects</button></a
+            >
+            |
+            <a href="resume.html"
+              ><button type="button" class="btn btn-link">Resume</button></a
+            >
+          </p>
+        </div>
       </div>
-      <!--END INFO CARD-->
+    </div>
 
-
-			<div class="col-md-8">
-        <h1 class="text-center">Hello World!</h1>
-        <hr>
-        <h6 class="text-center">
-           Welcome to my portfolio website! Here you can learn more about me and some of the projects I have worked on.
-        </h6>
-        <p class="text-center">
-          <a href="about.html"><button type="button" class="btn btn-link">About Me</button></a>          |          
-          <a href="projects.html"><button type="button" class="btn btn-link">Projects</button></a>
-        </p>
-      </div>
-		</div>
-	</div>
-
-
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
