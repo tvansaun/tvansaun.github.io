@@ -1,81 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Trevor VanSaun</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <title>Trevor VanSaun</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--NAVBAR--->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Trevor VanSaun</a>
 
-  <!--NAVBAR--->
-  <div class="container-fluid">
-  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    		<a class="navbar-brand" href="index.html">Trevor VanSaun</a>
-    		
-    		<div class="collapse navbar-collapse" id="navbarNav">
-      		<ul class="navbar-nav ml-auto">
-        			<li class="nav-item">
-          			<a class="nav-link" href="about.html">About Me</a>
-        			</li>
-        			<li class="nav-item active">
-          			<a class="nav-link" href="projects.html">Projects</a>
-        			</li>
-      		</ul>
-    		</div>
-    	</nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!--END NAVBAR-->
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4" id="infoCard">
-
-        <!--INFO CARD-->
-        <div class="card">
-          <img src="media/profile.jpeg" class="card-img-top rounded-circle" id="profileImg">
-          <div class="card-body">
-            <h5 class="card-title">Trevor VanSaun</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
-            <p><i class="fa fa-map-pin"></i>    Miami, Florida</p>
-            <p><i class="fa fa-envelope"></i><a href="mailto:trevorvansaun@gmail.com">    Email</a></p>
-            <p><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/trevor-vansaun-837334162/">    LinkedIn</a></p>
-            <p><i class="fa fa-github-square"></i><a href="https://github.com/tvansaun">    GitHub</a></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="infoCard">
+          <!--INFO CARD-->
+          <div class="card">
+            <img
+              src="media/profile.jpeg"
+              class="card-img-top rounded-circle"
+              id="profileImg"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Trevor VanSaun</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
+              <p><i class="fa fa-map-pin"></i> Miami, Florida</p>
+              <p>
+                <i class="fa fa-envelope"></i
+                ><a href="mailto:trevorvansaun@gmail.com"> Email</a>
+              </p>
+              <p>
+                <i class="fa fa-linkedin-square"></i
+                ><a
+                  href="https://www.linkedin.com/in/trevor-vansaun-837334162/"
+                >
+                  LinkedIn</a
+                >
+              </p>
+              <p>
+                <i class="fa fa-github-square"></i
+                ><a href="https://github.com/tvansaun"> GitHub</a>
+              </p>
+            </div>
           </div>
-        </div>   
+        </div>
+        <!--END INFO CARD-->
+
+        <div class="col-md-8">
+          <h1 class="text-left">Projects</h1>
+          <hr />
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Contact Keeper</h5>
+              <p class="card-text">MERN stack Contact Keeper Application</p>
+              <a href="http://tvs-contactkeeper.herokuapp.com" class="card-link"
+                >Live Demo</a
+              >
+              |
+              <a href="https://github.com/tvansaun/contact-keeper"
+                >GitHub Repo</a
+              >
+            </div>
+          </div>
+          <p></p>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">YelpCamp</h5>
+              <p class="card-text">Yelp clone built with Node.js</p>
+              <a href="http://tvs-yelpcamp.herokuapp.com" class="card-link"
+                >Live Demo</a
+              >
+              |
+              <a href="https://github.com/tvansaun/tvs-yelpcamp">GitHub Repo</a>
+            </div>
+          </div>
+          <p></p>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Circles</h5>
+              <p class="card-text">Patatap clone made with Paper.js</p>
+              <a href="https://github.com/tvansaun/circles">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--END INFO CARD-->
+    </div>
 
-
-		<div class="col-md-8">
-	        <h1 class="text-left">Projects</h1>
-	        <hr>
-	        <div class="card">
-		        <div class="card-body">
-		        	<h5 class="card-title">YelpCamp</h5>
-		        	<p class="card-text">Yelp clone built with Node.js</p>
-		        	<a href="http://tvs-yelpcamp.herokuapp.com" class="card-link">Live Demo</a>
-		        	|
-		        	<a href="https://github.com/tvansaun/tvs-yelpcamp">GitHub Repo</a>
-		        </div>
-	        </div>
-	        <p></p>
-	        <div class="card">
-	        	<div class="card-body">
-		        	<h5 class="card-title">Circles</h5>
-		        	<p class="card-text">Patatap clone made with Paper.js</p>
-		        	<a href="https://github.com/tvansaun/circles">GitHub Repo</a>
-		        </div>
-		    </div>
-	      </div>
-		</div>
-	</div>
-
-
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
